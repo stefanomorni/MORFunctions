@@ -1,0 +1,9 @@
+[general]
+# Smart pathing using placeholders
+file = "{config.path}/MORFunctions.xlam"
+vba_directory = "{config.path}/vba-files"
+verbose = true
+rubberduck_folders = true
+in_file_headers = true
+keep_open = true
+encoding = "utf-8"
