@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Testo"
 Public Function EstraiValoreDaStringa(testo As String, delimitatore As String, indice As Integer) As String
     Dim parti() As String
@@ -90,3 +89,11 @@ End Sub
 Public Function Text_Before_Separator(ByVal txt As String, ByVal separator As String) As String
     If InStr(txt, separator) > 0 Then Extract_string = Split(txt, separator)(0)
 End Function
+
+
+
+
+
+
+
+

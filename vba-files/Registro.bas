@@ -1,5 +1,5 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Registro"
+
 Function RegKeyRead(i_RegKey As String) As String
 'Reading from the Registry:
 'reads the value for the registry key i_RegKey
@@ -69,3 +69,4 @@ ErrorHandler:
   'deletion wasn't successful
   RegKeyDelete = False
 End Function
+

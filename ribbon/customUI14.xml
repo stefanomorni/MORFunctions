@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="customTab_GP" label="GP Dashboard" insertAfterMso="TabHome">
+        <group id="customGroup_Actions" label="Actions">
+          <button id="btnRefreshAll"
+                  label="Refresh All"
+                  size="large"
+                  image="refresh"
+                  onAction="OnRibbonButtonClick" />
+          <button id="btnSettings"
+                  label="Settings"
+                  size="normal"
+                  image="settings"
+                  onAction="OnRibbonButtonClick" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

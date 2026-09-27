@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Classes")
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
@@ -46,3 +45,4 @@ End Property
 Public Property Get PostDataType() As String
     PostDataType = mPostDataType
 End Property
+

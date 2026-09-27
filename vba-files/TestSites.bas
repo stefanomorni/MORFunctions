@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "TestSites"
 Option Explicit
 
@@ -170,3 +169,4 @@ Public Sub TestCredentials()
     Debug.Print "Username: " & creds("username")
     Debug.Print "Password length: " & Len(creds("password"))
 End Sub
+

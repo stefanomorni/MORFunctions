@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Trasformazione"
 Function HexToDec(hexStr$)
 'VBA function to convert a hexadecimal string into a decimal. Uses
@@ -321,3 +320,4 @@ Private Sub tester()
      
     MsgBox binOut = bin
 End Sub
+

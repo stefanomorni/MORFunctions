@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "JsonConverter"
 ''
 ' VBA-JSON v2.3.1
@@ -1122,4 +1121,3 @@ Private Function utc_SystemTimeToDate(utc_Value As utc_SYSTEMTIME) As Date
 End Function
 
 #End If
-()

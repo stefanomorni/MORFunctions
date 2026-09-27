@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Grafici"
 Function MaxCht(ByVal Cht As Object)
 Dim MaxSerie As Double
@@ -95,3 +94,5 @@ Public Function Sorted_SeriesCollection_On_Last_Point(Coll As SeriesCollection, 
     Next i
 Set Sorted_SeriesCollection_On_Last_Point = Coll
 End Function
+
+

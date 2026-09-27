@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "CSVConverter"
 Public Function colonna_da_stringa(stringa As String, separatore)
 colonna_da_stringa = Application.Transpose(VBA.Split(stringa, separatore))
@@ -31,3 +30,4 @@ prossima:
 Next cella
 stringa_da_area = Trim(stringa_da_area)
 End Function
+

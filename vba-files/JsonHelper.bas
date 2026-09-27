@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "JsonHelper"
 Option Explicit
 
@@ -76,3 +75,5 @@ Private Function ConvertToJson(ByVal obj As Variant) As String
 
     ConvertToJson = result
 End Function
+
+

@@ -1,6 +1,6 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "modGetSetFileTimes"
 Option Explicit
+'Changed in VScode
 Option Compare Text
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' modGetSetFileTime
@@ -1097,3 +1097,8 @@ Else
 End If
 
 End Function
+
+
+
+
+

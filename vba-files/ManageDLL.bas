@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "ManageDLL"
 Option Explicit
 
@@ -135,4 +134,3 @@ Public Sub UnregisterXLL(xllName)
 ErrorHandler:
     Debug.Print Err.Number, Err.Description
 End Sub
-()

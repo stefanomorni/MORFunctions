@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "modTest"
 Option Explicit
 Option Compare Text
@@ -148,3 +147,4 @@ End If
 
 
 End Sub
+

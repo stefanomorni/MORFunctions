@@ -1,5 +1,5 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "SiteManagement"
+
 Private Type Credential
     Flags As Long
     Type As Long
@@ -99,3 +99,5 @@ Private Function PointerToString(ByVal ptr As LongPtr) As String
     PointerToString = Space$(lstrlenW(ptr))
     lstrcpyW StrPtr(PointerToString), ptr
 End Function
+
+

@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Classes")
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
@@ -15,3 +14,4 @@ Private Sub Class_Initialize()
     Set Fields = New Collection
     Set Quotes = New Collection
 End Sub
+

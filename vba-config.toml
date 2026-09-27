@@ -1,9 +1,10 @@
 [general]
-# Smart pathing using placeholders
-file = "{config.path}/MORFunctions.xlam"
-vba_directory = "{config.path}/vba-files"
+# Develop against the visible -dev workbook. Never watch/import the loaded .xlam.
+file = 'MORFunctions-dev.xlsm'
+vba_directory = 'vba-files'
 verbose = true
-rubberduck_folders = true
 in_file_headers = true
 keep_open = true
-encoding = "utf-8"
+encoding = 'utf-8'
+# Mamba env for Office COM/xlwings/watchers (project SSoT). Not the Excel end-user runtime.
+python_env = 'xlpy'

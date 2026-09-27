@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "lukb"
 Option Explicit
 
@@ -215,3 +214,5 @@ cookieFile.WriteLine "boersenundmaerkte.lukb.ch" & vbTab & _
     cookieFile.Close
     TestLUKBLogin = sessionCookie
 End Function
+
+

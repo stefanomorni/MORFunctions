@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Classes")
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
@@ -12,3 +11,5 @@ Public Tickers As Collection
 Private Sub Class_Initialize()
     Set Tickers = New Collection
 End Sub
+
+

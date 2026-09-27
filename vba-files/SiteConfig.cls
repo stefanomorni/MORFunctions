@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Classes")
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
@@ -168,3 +167,4 @@ Public Function ToJson() As Object
     
     Set ToJson = result
 End Function
+

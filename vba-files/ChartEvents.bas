@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "ChartEvents"
 '----------------------------------------------------------------------------------------
 ' to use this fuctionality, you have to add following code to the workbook module

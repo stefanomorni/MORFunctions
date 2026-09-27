@@ -1,5 +1,5 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Ambiente"
+
 Public Sub BloccaXSecondi(Seconds)
 
 ' Wait a while blocking excel activity
@@ -86,3 +86,7 @@ Sub CancelAllQueriesAndWait()
         DoEvents ' Let Excel process cancellation internally
     Loop While stillRefreshing
 End Sub
+
+
+
+

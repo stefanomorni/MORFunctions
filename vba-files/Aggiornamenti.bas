@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Aggiornamenti"
 Sub Aggiorna_Links_Immagini_To_Edit()
 

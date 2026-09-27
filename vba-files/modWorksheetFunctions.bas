@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "modWorksheetFunctions"
 Option Explicit
 Option Compare Text

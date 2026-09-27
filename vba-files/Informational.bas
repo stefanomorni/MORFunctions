@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Informational"
 Option Explicit
 Public Function FileExistsInt(filePath As String) As Integer
@@ -69,7 +68,7 @@ Application.Volatile
 Set RangeColonnaArea = Intersect(Range(Names(NomeArea).RefersTo), Columns(Application.Caller.Column))
 End Function
 
-Public Function V(ByRef Rif As Range) As Variant 'ritorna una matrice Bolean che dice se la cella ï¿½ visibile o meno
+Public Function V(ByRef Rif As Range) As Variant 'ritorna una matrice Bolean che dice se la cella � visibile o meno
 Application.Volatile
 Dim r, c As Integer
 Dim Riga As Object
@@ -153,9 +152,9 @@ For iBook = 1 To Workbooks.Count
 Next iBook
 End Function
 
-Public Function LarghezzaAreaStampa(ByVal ws As Worksheet, ByVal Unit As String) As Double 'in pt o cm
+Public Function LarghezzaAreaStampa(ByVal wsCodename As String, ByVal Unit As String) As Double 'in pt o cm
 Dim LargPg, AltPg, ptLargAS As Double
-With ws.PageSetup
+With wsCodename.PageSetup
 If .PaperSize = xlA5 Then
     If .Orientation = xlLandscape Then
         LargPg = 842
@@ -215,7 +214,7 @@ URLFromHyperlink = Application.Transpose(URL)
 End Function
 
 Public Function InStr(stringa, Testo_Ricercato) As Boolean
-'Ritorna Vero o Falso a seconda se il la string ricercata ï¿½ prsente o meno nel testo
+'Ritorna Vero o Falso a seconda se il la string ricercata � prsente o meno nel testo
 If VBA.InStr(stringa, Testo_Ricercato) = 0 Then
     InStr = False
 Else
@@ -473,3 +472,7 @@ End Function
 Public Function get_file_last_update(file_path As String)
 get_file_last_update = FileDateTime(file_path)
 End Function
+
+
+
+

@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "XMLConverter"
 ''
 ' VBA-XML v0.0.0
@@ -519,4 +518,4 @@ Private Function xml_UnsignedAdd(xml_Start As Long, xml_Increment As Long) As Lo
         xml_UnsignedAdd = (xml_Start + &H80000000) + (xml_Increment + &H80000000)
     End If
 End Function
-()
+

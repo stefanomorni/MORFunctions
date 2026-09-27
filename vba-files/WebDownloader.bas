@@ -1,5 +1,5 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "WebDownloader"
+
 Private Declare PtrSafe Function InternetSetCookieEx Lib "wininet.dll" Alias "InternetSetCookieExA" ( _
     ByVal lpszUrl As String, _
     ByVal lpszCookieName As String, _
@@ -234,3 +234,5 @@ Public Function DownloadSecureFile(ByVal downloadUrl As String, _
     Application.StatusBar = "Download failed"
     DownloadSecureFile = False
 End Function
+
+

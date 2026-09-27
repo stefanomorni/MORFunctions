@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Classes")
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
@@ -11,3 +10,5 @@ Attribute VB_Exposed = False
 'Class to store Field code, object and Labels
 Public Label As String
 Public Scope As String
+
+

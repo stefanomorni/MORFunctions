@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "VBA: Sync & Watch (dev)",
+      "type": "shell",
+      "command": "C:\\Users\\Stefano\\miniforge3\\envs\\xlpy\\python.exe",
+      "args": ["scripts\\vba_sync_watch.py", "watch", "MORFunctions-dev.xlsm", "--vba-dir", "vba-files"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "VBA: Export (Force)",
+      "type": "shell",
+      "command": "C:\\Users\\Stefano\\miniforge3\\envs\\xlpy\\python.exe",
+      "args": ["scripts\\vba_sync_watch.py", "export-all", "MORFunctions-dev.xlsm"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "VBA: Import (Force)",
+      "type": "shell",
+      "command": "C:\\Users\\Stefano\\miniforge3\\envs\\xlpy\\python.exe",
+      "args": ["scripts\\vba_sync_watch.py", "import-all", "MORFunctions-dev.xlsm"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Ribbon: Export",
+      "type": "shell",
+      "command": "C:\\Users\\Stefano\\miniforge3\\envs\\xlpy\\python.exe",
+      "args": ["scripts\\ribbon_sync.py", "export", "MORFunctions-dev.xlsm", "--output-dir", "ribbon"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Ribbon: Import",
+      "type": "shell",
+      "command": "C:\\Users\\Stefano\\miniforge3\\envs\\xlpy\\python.exe",
+      "args": ["scripts\\ribbon_sync.py", "import", "MORFunctions-dev.xlsm", "--input-dir", "ribbon"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Add-In: Publish (dev -> xlam)",
+      "type": "shell",
+      "command": "${workspaceFolder}\\run-addin-publish.bat",
+      "args": ["run"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "folders": [
+        { "name": "[MORFunctions]",  "path": "D:/Cloud/Coding/Projects/MORFunctions"}
+    ],
+    "settings": {
+        "files.exclude": { "**/__pycache__": true, "**/*.pyc": true }
+    }
+}

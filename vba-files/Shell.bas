@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Shell"
 Option Explicit
 
@@ -120,3 +119,5 @@ Public Function ShellRun(sCmd As String) As String
     ShellRun = S
 
 End Function
+
+

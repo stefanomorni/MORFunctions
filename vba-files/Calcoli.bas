@@ -1,5 +1,5 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Calcoli"
+
 Option Base 0
 Public Function ref_add_in_somma(A, b)
     ref_add_in_somma = xlwings.addin_somma(A, b)
@@ -329,3 +329,6 @@ Else
     ValPonderato = ValP
 End If
 End Function
+
+
+

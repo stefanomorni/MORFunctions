@@ -1,5 +1,5 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "Tempo"
+
 Public Function Date2Timestamp(dtDate, Optional GMTOffsetSeconds = 0) As Long
 If Not IsNull(dtDate) Then
     Date2Timestamp = (CDate(dtDate) - #1/1/1970#) * 86400 - GMTOffsetSeconds
@@ -19,3 +19,6 @@ End Function
 Public Function LastDayOfMonth(ByVal myDate As Date) As Date
     LastDayOfMonth = DateSerial(Year(myDate), Month(myDate) + 1, 0)
 End Function
+
+
+

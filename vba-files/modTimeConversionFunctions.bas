@@ -1,4 +1,3 @@
-'@Folder("MORFunctions.Modules")
 Attribute VB_Name = "modTimeConversionFunctions"
 Option Explicit
 Option Compare Text
@@ -776,3 +775,4 @@ For D = 1 To 7
 Next D
 
 End Function
+
