@@ -4,7 +4,7 @@ type: project_handbook
 handbook_maturity: deep
 habits: on
 created: 2026-09-21
-updated: 2026-09-27
+updated: 2026-10-10
 source_code:
   - "%PROJECTS_ROOT%\\MORFunctions"
 ---
@@ -128,7 +128,8 @@ source_code:
 | 2026-09-21 | Create `-dev` via file copy of installed `.xlam` + SaveAs `.xlsm` | Installed add-in was referenced/locked; copy avoids uninstalling mid-session | Yes |
 | 2026-09-27 | `run-addin-publish.bat` migrated to `publish_addin.py` | Inline `python -c` had SyntaxError; script supports auto-unload/reload | Yes |
 | 2026-09-27 | Git repo initialized and pushed to `stefanomorni/MORFunctions` | Prior was unversioned | Yes |
-| 2026-09-27 | `Informational.bas` cp1252 mojibake fixed via Safe-Sync | Workbook had garbled `è` → `â€¨` | Yes |
+| 2026-09-27 | `Informational.bas` cp1252 mojibake fixed via Safe-Sync | Workbook had garbled `è` → `â€ ̈` | Yes |
+| 2026-10-10 | Consumes OAF `vba_compile_check.py` (symlink) as the compile gate before publish | Autonomous VBE compile diagnosis belongs to the framework, not this child | Yes |
 
 ## 6. Open questions & risks
 
